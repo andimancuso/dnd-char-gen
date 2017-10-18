@@ -34,7 +34,7 @@ export class GetCharClass extends React.Component {
   render() {
     let charClass = charClassOptions[Math.floor(Math.random() * charClassOptions.length)];
 
-    if (charClass[0] === "a") {
+    if (charClass[0] === "a" || charClass[0] === "e" || charClass[0] === "i" || charClass[0] === "o" || charClass[0] === "u") {
     return (
       <span>an {charClass}</span>
     );} else {

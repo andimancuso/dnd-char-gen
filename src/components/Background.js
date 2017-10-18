@@ -6,7 +6,7 @@ export class GetBackground extends React.Component {
   render() {
     let background = backgroundOptions[Math.floor(Math.random() * backgroundOptions.length)];
 
-    if (background[0] === "a") {
+    if (background[0] === "a" || background[0] === "e" || background[0] === "i" || background[0] === "o" || background[0] === "u") {
       return (
         <span>an {background}</span>
       );} else {
