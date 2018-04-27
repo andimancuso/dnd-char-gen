@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
       <div className="App-header">
-        <img src={logo} className="App-logo" alt="maaaAAAaaagiiic" />
+        <img src={logo} className="App-logo" alt="maaaAAAaaagiiic~" />
         <h2>OD<span style={{color: 'red' }}>D&D Char</span> Gen</h2>
       </div>
         <div className="App-intro">
